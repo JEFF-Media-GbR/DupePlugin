@@ -1,0 +1,5 @@
+# when true, players need the permission "dupe" to use /dupe
+require-permission: true
+
+# when true, players need the permission "dupe.<itemname>" to dupe items, e.g. "dupe.diamond_sword" to dupe diamond swords
+require-permission-per-item: false

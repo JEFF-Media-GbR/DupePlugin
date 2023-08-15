@@ -1,0 +1,1 @@
+No idea why anyone would want to use this, but here it is.

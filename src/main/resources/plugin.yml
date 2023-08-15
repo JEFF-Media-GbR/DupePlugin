@@ -1,0 +1,15 @@
+name: Dupe
+main: com.jeff_media.dupe.Dupe
+version: ${project.version}
+author: mfnalex
+commands:
+  dupe:
+    description: Dupe an item
+    permission: dupe
+permissions:
+  dupe:
+    description: Allows you to dupe items
+    default: op
+  dupe.reload:
+    description: Allows to reload the config using /dupe reload
+    default: op
