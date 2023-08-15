@@ -42,8 +42,12 @@ public class Dupe extends JavaPlugin {
         if (!(sender instanceof Player)) return true;
         Player player = (Player) sender;
         ItemStack item = player.getInventory().getItemInMainHand();
-        if (item == null) return true;
-        if(!player.hasPermission("dupe." + item.getType().name().toLowerCase())) {
+
+        if (item == null) {
+            return true;
+        }
+
+        if(!hasPermissionToDupe(player,item)) {
             player.sendMessage(ChatColor.RED + "You cannot dupe this item!");
             return true;
         }
