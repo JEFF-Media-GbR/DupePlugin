@@ -5,6 +5,7 @@ author: mfnalex
 commands:
   dupe:
     description: Dupe an item
+    usage: /<command>
     permission: dupe
 permissions:
   dupe:
